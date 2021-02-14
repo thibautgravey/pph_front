@@ -19,6 +19,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /home/ubuntu/insa/pph/pph_front
+          git reset --hard
           git pull
           npm run build
           cp -a ./build/. /var/www/html

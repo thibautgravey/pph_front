@@ -9,6 +9,9 @@ function App() {
         <p>
           PPH 2020-21 - GRAVEY Thibaut
         </p>
+	<p>
+	  Le Machine Learning, un atout ou une autosuffisance pour le coaching sportif ?	
+	</p>
       </header>
     </div>
   );
