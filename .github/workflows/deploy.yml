@@ -21,4 +21,4 @@ jobs:
           cd /home/ubuntu/insa/pph/pph_front
           git pull
           npm run build
-          cp -a ./build/. /var/www/thibautgravey/html
+          cp -a ./build/. /var/www/html
